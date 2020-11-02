@@ -4,6 +4,10 @@ body{
   font-family: 'Poppins';
 }
 
+.menu-icon {
+  display: none;
+}
+
 a{
   text-decoration: none;
 }
@@ -371,7 +375,7 @@ input[type="submit"]{
 
 /* RESPONSIVE */
 
-@media screen and (max-width: 800px){
+@media screen and (max-width: 800px){  
   nav {
     position: absolute;
     top: 93px;
@@ -392,6 +396,10 @@ input[type="submit"]{
 
   header .logo{
     font-size: 20px;
+  }
+
+  .menu-icon {
+    display: block;
   }
 
   #intro{
